@@ -1,6 +1,11 @@
 import java.util.LinkedList;
 
 class Parenthesis {
+    
+    public void main(String[] args){
+        System.out.println(isValid(args[0]));
+    }
+
     public boolean isValid(String s) {
         /*public class parentheses{
             public struct{
@@ -54,9 +59,5 @@ class Parenthesis {
         }
         if(parentheses.size() == 0) return true;
         else return false;
-        }
-
-        public void main(String[] args){
-            System.out.println(isValid(args[0]));
         }
     }
