@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 class Parenthesis {
     public boolean isValid(String s) {
         /*public class parentheses{
@@ -52,5 +54,9 @@ class Parenthesis {
         }
         if(parentheses.size() == 0) return true;
         else return false;
+        }
+
+        public void main(String[] args){
+            System.out.println(isValid(args[0]));
         }
     }
